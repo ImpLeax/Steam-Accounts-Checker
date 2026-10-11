@@ -1,0 +1,4 @@
+# Example SteamID64 list. Copy to data/steam_ids.txt (one ID per line).
+# These are well-known public Steam accounts, used only as examples.
+76561197960287930
+76561197960435530

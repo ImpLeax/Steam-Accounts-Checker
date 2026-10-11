@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# IDE
+.idea/
+.vscode/
+
+# Logs
+*.log
+logs/
+
+# Local data (credentials, harvested IDs, results) — never commit real data.
+# Only the *.example templates in data/ are tracked.
+data/*
+!data/.gitkeep
+!data/*.example.txt
+
+# Legacy data files from the pre-refactor layout
+/emails.txt
+/steam_ids.txt
+/clean_api.txt
+/banned_api.txt
+/banned.txt
+/clean.txt
+
+# OS
+Thumbs.db
+.DS_Store

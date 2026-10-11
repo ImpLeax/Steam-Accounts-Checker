@@ -1,0 +1,10 @@
+# Example accounts file. Copy to data/accounts.txt and replace with real data.
+# One account per line, fields separated by ':'
+# Format: login:password:email:emailPassword
+#
+# - login / password  : the Steam account credentials
+# - email / emailPassword : the mailbox that receives Steam Guard codes (IMAP)
+#
+# Lines starting with '#' and blank lines are ignored.
+exampleLogin1:examplePassword1:example1@mail.test:exampleMailPassword1
+exampleLogin2:examplePassword2:example2@mail.test:exampleMailPassword2
